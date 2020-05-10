@@ -1,0 +1,17 @@
+
+
+Image Button
+
+
+<a href='@Url.Action("Action-Name", "ControllerName")'>
+    <img src='@Url.Content("ADD Path Of Folder Where Image have ")' />
+</a>
+
+
+
+Button
+
+<button type="button" onclick="location.href='@Url.Action("Action", "controller")'" >
+   Create New
+   <img alt="New" title="New" src="Add Source of Image">
+</button>
